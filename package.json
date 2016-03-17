@@ -1,0 +1,22 @@
+{
+  "name": "careful-server",
+  "version": "1.0.0",
+  "description": "Backend server for the Careful application",
+  "homepage": "https://github.com/tgenovese/careful-server#readme",
+  "bugs": {
+    "url": "https://github.com/tgenovese/careful-server/issues"
+  },
+  "license": "MIT",
+  "author": "Thierry Genovese",
+  "main": "app.js",
+  "repository": "tgenovese/careful-server",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-tge": "^1.0.1"
+  },
+  "private": true
+}
