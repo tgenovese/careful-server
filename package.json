@@ -12,7 +12,9 @@
   "repository": "tgenovese/careful-server",
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "NODE_ENV=test mocha",
+    "cover": "NODE_ENV=test istanbul cover _mocha"
   },
   "dependencies": {
     "rc": "~1.0.1",
@@ -20,8 +22,14 @@
     "sails-postgresql": "^0.11.3"
   },
   "devDependencies": {
+    "barrels": "^1.6.4",
+    "chai": "^3.5.0",
     "eslint": "^2.4.0",
-    "eslint-config-tge": "^1.0.1"
+    "eslint-config-tge": "^1.0.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "sails-memory": "^0.10.6",
+    "supertest": "^1.2.0"
   },
   "private": true
 }
