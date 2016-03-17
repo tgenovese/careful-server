@@ -11,8 +11,14 @@
   "main": "app.js",
   "repository": "tgenovese/careful-server",
   "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
   },
   "dependencies": {
+    "include-all": "~0.1.6",
+    "rc": "~1.0.1",
+    "sails": "~0.12.1",
+    "sails-disk": "~0.10.9"
   },
   "devDependencies": {
     "eslint": "^2.4.0",

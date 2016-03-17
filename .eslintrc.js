@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'tgnvs'
+    'tge'
   ],
   env: {
     node: true
