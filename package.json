@@ -15,7 +15,6 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "include-all": "~0.1.6",
     "rc": "~1.0.1",
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9"
