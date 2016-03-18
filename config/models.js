@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Default model configuration
  * (sails.config.models)
@@ -17,7 +19,7 @@ module.exports.models = {
   * connections (see `config/connections.js`)                                *
   *                                                                          *
   ***************************************************************************/
-  connection: 'carefulDb',
+  connection: 'carefulDb'
 
   /***************************************************************************
   *                                                                          *

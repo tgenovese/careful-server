@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Route Mappings
  * (sails.config.routes)
