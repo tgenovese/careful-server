@@ -28,12 +28,24 @@ Start the backend server:
 npm start
 ```
 
+Alternatively, watch the source files and restart the backend server on changes:
+
+```bash
+npm run dev
+```
+
 ## Unit Testing
 
-Run the tests:
+Run the tests once:
 
 ```bash
 npm test
+```
+
+Watch the source or test files and run the tests on changes:
+
+```bash
+npm run tdd
 ```
 
 Generate a code coverage report:
