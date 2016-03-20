@@ -23,7 +23,7 @@ before(function(done) {
     var barrels = new Barrels(process.cwd() + '/test/fixtures/models');
 
     // Populate the DB
-    barrels.populate(function(err) {
+    barrels.populate(['car', 'fillup'], function(err) {
       done(err, sails);
     });
   });

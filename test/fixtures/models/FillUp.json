@@ -1,0 +1,34 @@
+[
+  {
+    "car": 1,
+    "when": "2014-03-15T21:54:00.000Z",
+    "volume": 32,
+    "price": 45,
+    "distanceCovered": 400,
+    "fullTank": true
+  },
+  {
+    "car": 2,
+    "when": "2016-01-15T21:54:00.000Z",
+    "volume": 16,
+    "price": 22,
+    "distanceCovered": 230,
+    "fullTank": true
+  },
+  {
+    "car": 2,
+    "when": "2016-02-15T21:54:00.000Z",
+    "volume": 25,
+    "price": 30,
+    "distanceCovered": 300,
+    "fullTank": false
+  },
+  {
+    "car": 2,
+    "when": "2016-03-15T21:54:00.000Z",
+    "volume": 32,
+    "price": 45,
+    "distanceCovered": 400,
+    "fullTank": true
+  }
+]

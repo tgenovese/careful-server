@@ -1,0 +1,26 @@
+[
+  {
+    "make": "Subaru",
+    "model": "Impreza",
+    "description": "Subaru Impreza 1.5R 107 ch",
+    "picture": "U3ViYXJ1IEltcHJlemEgMS41UiAxMDfCoGNoCg==",
+    "firstRegistration": "2007-11-21T00:00:00.000Z",
+    "boughtOn": "2013-01-02T00:00:00.000Z",
+    "initialMileage": 35778,
+    "registrationNumber": "AB-123-CD",
+    "soldOn": "2015-02-17T00:00:00.000Z",
+    "finalMileage": 53000
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-5",
+    "description": "Mazda MX-5 NA 1.6 115 ch",
+    "picture": "TWF6ZGEgTVgtNSBOQSAxLjYgMTE1wqBjaAo=",
+    "firstRegistration": "1991-05-17T00:00:00.000Z",
+    "boughtOn": "2015-02-17T00:00:00.000Z",
+    "initialMileage": 147321,
+    "registrationNumber": "AB-456-CD",
+    "soldOn": null,
+    "finalMileage": null
+  }
+]

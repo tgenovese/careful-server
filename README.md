@@ -42,7 +42,7 @@ Run the tests once:
 npm test
 ```
 
-Watch the source or test files and run the tests on changes:
+Watch the source and test files and run the tests on changes:
 
 ```bash
 npm run tdd
