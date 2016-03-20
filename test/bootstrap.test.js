@@ -1,32 +1,12 @@
 'use strict';
 
 var Sails = require('sails');
-var Barrels = require('barrels');
+var rc = require('rc');
 
 // Global before hook
 before(function(done) {
-
   // Lift Sails with test database
-  Sails.lift({
-    port: 5678,
-    hooks: {
-      grunt: false,
-      session: false,
-      views: false
-    }
-  }, function(err, sails) {
-    if (err) {
-      return done(err);
-    }
-
-    // Load fixtures
-    var barrels = new Barrels(process.cwd() + '/test/fixtures/models');
-
-    // Populate the DB
-    barrels.populate(['car', 'fillup'], function(err) {
-      done(err, sails);
-    });
-  });
+  Sails.lift(rc('sails'), done);
 });
 
 // Global after hook

@@ -54,3 +54,11 @@ Generate a code coverage report:
 npm run cover
 open coverage/lcov-report/index.html
 ```
+
+## Support End 2 End Testing
+
+Start the backend server on port 5678 with fixtures and a non-persistent database:
+
+```bash
+npm run e2e
+```
